@@ -18,4 +18,8 @@
   </author>
  <icon src="icon.png" />
 
+<edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge">
+    <string>need camera access to take pictures</string>
+</edit-config>
+
 </widget>
